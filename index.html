@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="img/web-circ.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/syles.css">
+    <link rel="stylesheet" href="style/normalize.css">
+</head>
+<body>
+    
+    <img src="img/bannerJs.jpg" alt="banner" class="centrar">
+
+    <div class="centrar-texto">
+        <h1 class="h1">Calculadora en javascript</h1>
+        <p class="parrafo-indicador">Haz click en el tipo de operacion a realizar</p>
+
+        <button type="button" class="botones" id="suma" onclick="mostrarDiv()">suma</button>
+        <button type="button" class="botones" id="resta" onclick="mostrarDiv()">resta</button>
+        <button type="button" class="botones" id="multiplicacion" onclick="mostrarDiv()">multiplicación</button>
+        <button type="button" class="botones" id="divicion" onclick="mostrarDiv()">divición</button>
+    </div>  
+
+    <div id="resultado" class="div-resultado">
+    </div>
+
+    <footer class="footer">
+        <p class="forma"> &copy; Elaborado por: <span><a href="https://github.com/OsvaldoMDLM" target="_blank">Osvaldo Medina</a></span> </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
